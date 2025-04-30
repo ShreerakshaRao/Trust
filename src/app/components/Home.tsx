@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import HeroSection from "./HeroSection";
+import Card from "./Card";
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
         subheading="By Dr. M. D. Sachidananda Murthy Memorial Educational Trust. An innovative plan to assist the vulnerable population during this crisis"
       />
 
-      <div className="flex flex-col justify-center items-center relative min-h-screen m-30">
+      <div className="flex flex-col relative min-h-screen mx-70 my-25">
         <div className="flex space-x-20">
           <div className="max-w-md space-y-5">
             <div className="font-medium text-3xl font-serif">
@@ -40,7 +41,7 @@ const Home = () => {
         </div>
 
         <div className="flex space-x-20">
-          <div className="absolute top-[40%] left-0">
+          <div className="absolute top-[50%] left-0">
             <Image
               src="/ApproachImg.svg"
               alt="Company Logo"
@@ -67,6 +68,24 @@ const Home = () => {
             </ul>
           </div>
         </div>
+      </div>
+
+      <div className="m-20 flex space-x-10 justify-center">
+        <Card
+          title="600,000+ Lives Touched"
+          content="From medical consultations to life-saving treatments"
+          className="w-[400px] h-[320px]"
+        />
+        <Card
+          title="22 Districts Covered"
+          content="Reaching even the most remote villages"
+          className="w-[400px] h-[320px]"
+        />
+        <Card
+          title="35,000+ Surgeries Performed"
+          content="Timely interventions improving survival rates"
+          className="w-[400px] h-[320px]"
+        />
       </div>
     </>
   );
