@@ -2,7 +2,6 @@
 
 import React from "react";
 import HeroSection from "../components/HeroSection";
-import Card from "../components/Card";
 
 const Page = () => {
   return (
@@ -42,7 +41,7 @@ const Page = () => {
               <div className="flex flex-col space-y-5">
                 <div className="flex flex-col">
                   <span className="font-normal text-2xl text-[#484646]">
-                    Account Holder's Name
+                    Account Holders Name
                   </span>
                   <span className="font-normal text-2xl">
                     Dr. M. D. Sachidananda Murthy Memorial Educational Trust
@@ -129,7 +128,7 @@ const Page = () => {
               <div className="flex flex-col space-y-5">
                 <div className="flex flex-col">
                   <span className="font-normal text-2xl text-[#484646]">
-                    Account Holder's Name
+                    Account Holders Name
                   </span>
                   <span className="font-normal text-2xl">
                     SAS POORNA AROGYA HEALTHCARE PVT LTD

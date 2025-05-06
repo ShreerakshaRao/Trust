@@ -13,7 +13,6 @@ import { IoIosCall, IoLogoRss } from "react-icons/io";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { FaGooglePlusG } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa6";
-import Link from "next/link";
 
 const Footer = () => {
   // const navLinks = [
