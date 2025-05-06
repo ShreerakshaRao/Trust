@@ -8,7 +8,8 @@ interface HeroSectionProps {
   imageSrc: string;
   imageAlt?: string;
   heading: string;
-  subheading: string;
+  subheading?: string;
+  contentClassName?: string;
 }
 
 export default function HeroSection({
@@ -18,6 +19,7 @@ export default function HeroSection({
   imageAlt = "Image",
   heading,
   subheading,
+  contentClassName,
 }: HeroSectionProps) {
   return (
     <div className={`relative bg-[${backgroundColor}] py-30 overflow-hidden`}>
@@ -32,7 +34,7 @@ export default function HeroSection({
 
       <div className="relative z-10 px-20">
         <div className="flex justify-between items-start">
-          <div className="max-w-3xl space-y-5">
+        <div className={`${contentClassName ?? "max-w-3xl"} space-y-5`}>
             <h1 className="text-6xl font-semibold font-serif leading-[1.3]">
               {heading}
             </h1>

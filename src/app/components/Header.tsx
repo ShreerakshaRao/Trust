@@ -15,10 +15,9 @@ import {
 
 const navLinks = [
   { name: "Sav", href: "/" },
-  { name: "Blood Bank", href: "/categories" },
-  { name: "Donation", href: "/products" },
-  { name: "About Us", href: "/about" },
-//   { name: "Contact Us", href: "/contact" },
+  { name: "Blood Bank", href: "/bloodBank" },
+  { name: "Conatct Us", href: "/contact" },
+  { name: "Donation", href: "/donation" },
 ];
 
 const socialIcons = [
