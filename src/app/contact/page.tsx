@@ -180,7 +180,7 @@ const Page = () => {
                 </div>
                 <div className="flex space-x-2 font-medium text-base items-center pt-3 break-words">
                   <IoMail />
-                  <span>info@tiameds.ai</span>
+                  <span>info@smt.help</span>
                 </div>
 
                 <div className="mt-10">
@@ -202,7 +202,7 @@ const Page = () => {
                   <div className="flex space-x-2 font-medium text-base items-center pt-3 break-words">
                     <IoLocationSharp />
                     <span>
-                      Sy. No. 59, 2nd Floor, Dakshina Murthy 
+                      Sy. No. 59, 3rd Floor, Dakshina Murthy 
                       <br /> Towers, Devanooru, Rajeevnagara 2nd 
                       <br />Stage, Udayagiri, Mysore 570019.
                     </span>

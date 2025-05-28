@@ -29,7 +29,7 @@ const Page = () => {
                   Donate today—because every drop counts in making a difference!
                 </span>
                 <span className="font-normal text-2xl">
-                  Welcome to CurePlus Blood Bank, a dedicated platform
+                  CurePlus Blood Bank is a dedicated platform
                   connecting generous donors with patients in urgent need. Your
                   blood donation has the power to save lives, support critical
                   medical treatments, and bring hope to families. Join us in our
@@ -76,7 +76,7 @@ const Page = () => {
             </div>
 
             <div className="font-normal text-2xl max-w-xl">
-              Welcome to CurePlus Blood Bank, an initiative by Dr. M. D.
+              CurePlus Blood Bank is an initiative by Dr. M. D.
               Sachidananda Murthy Memorial Educational Trust, committed to
               saving lives through an advanced and accessible blood storage and
               distribution network. Located in Mysuru, Karnataka, CurePlus Blood

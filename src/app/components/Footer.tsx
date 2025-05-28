@@ -65,7 +65,7 @@ const socialLinks = [
           <div className="flex items-center space-x-3">
             <IoLocationSharp />
             <div className="text-sm font-normal">
-              Sy. No. 59, 2nd Floor, Dakshina Murthy Towers, Devanooru,
+              Sy. No. 59, 3rd Floor, Dakshina Murthy Towers, Devanooru,
               <br />
               Rajeevnagara 2nd Stage, Udayagiri, Mysore 570019.
             </div>
@@ -78,7 +78,7 @@ const socialLinks = [
 
           <div className="flex items-center space-x-3">
             <IoMail />
-            <div className="text-sm font-normal">info@tiameds.ai</div>
+            <div className="text-sm font-normal">info@smt.help</div>
           </div>
         </div>
       </div>

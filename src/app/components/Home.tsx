@@ -30,11 +30,11 @@ const Home = () => {
     "Truste6",
   ];
 
-    const mentors = [
-    "Mentor1",
-    "Mentor2",
-    "Mentor3",
-  ];
+  //   const mentors = [
+  //   "Mentor1",
+  //   "Mentor2",
+  //   "Mentor3",
+  // ];
 
   return (
     <>
@@ -126,32 +126,26 @@ const Home = () => {
                 Established in March 2013, the Dr. M. D. Sachidananda Murthy
                 Memorial Educational Trust was founded with a dual mission: to
                 educate and to heal. Under the leadership of Dr. Arjun
-                Sachidanand (Chairman) and Mr. Diwakar M. N. (Treasurer), the
-                Trust began its work in the education sector and soon expanded
-                into healthcare. Today, the Trust runs a Pre-School and operates
-                five healthcare centers across Karnataka in Mysore,
-                Chamarajanagar, Kushalanagar, Nanjangud, and Bettadapura
-                providing free or subsidized medical care to underserved
-                communities. Over the years, the Trust has organized numerous
-                charitable initiatives aimed at supporting the poor and
-                underprivileged. One of its key projects is the Sudhanand Arogya
-                Vahini, a mobile health initiative developed in response to the
-                COVID-19 pandemic. The project served rural areas with medical
-                support and also helped collect vital health data to better
-                understand and combat the virus.
+                Sachidanand (Founder Trustee) and Mr. Diwakar M. N. (Treasurer),
+                the Trust began its work in the education sector and soon
+                expanded into healthcare.
               </p>
               <p>
-                Today, the Trust runs a Pre-School and operates five healthcare
-                centers across Karnataka in Mysore, Chamarajanagar,
-                Kushalanagar, Nanjangud, and Bettadapura providing free or
-                subsidized medical care to underserved communities. Over the
-                years, the Trust has organized numerous charitable initiatives
-                aimed at supporting the poor and underprivileged. One of its key
-                projects is the Sudhanand Arogya Vahini, a mobile health
-                initiative developed in response to the COVID-19 pandemic. The
-                project served rural areas with medical support and also helped
-                collect vital health data to better understand and combat the
-                virus.
+                Over the years, the Trust has run a pre-school in Mysore called
+                Bright Champs and provided free education for over 60 students,
+                whilst organizing numerous charitable initiatives aimed at
+                supporting the poor and underprivileged. One of its key projects
+                is the Sudhanand Arogya Vahini, a mobile health initiative
+                developed in response to the COVID-19 pandemic. The project has
+                served numerous rural areas with diagnostic services and
+                continues to do so.
+              </p>
+              <p>
+                The Trust has now embarked on another, potentially life-saving
+                project, called the CurePlus Blood Bank. It has the capacity to
+                store 2,000 units of blood and will be able to provide it to
+                many regions of Mysore, Chamajanagara, Hassan, Mandya, Kodagu
+                and more.
               </p>
             </div>
           </div>
@@ -252,27 +246,26 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="text-center">
-          <h1 className="md:text-4xl text-2xl font-normal font-serif mb-10">
-            Our Trustees
-          </h1>
-          <div className="flex justify-center">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-13">
-              {trustees.map((trustee) => (
-                <Image
-                  key={trustee}
-                  src={`/${trustee}.svg`}
-                  alt={trustee}
-                  width={300}
-                  height={300}
-                />
-              ))}
+          <div className="text-center pb-25">
+            <h1 className="md:text-4xl text-2xl font-normal font-serif mb-10">
+              Our Trustees
+            </h1>
+            <div className="flex justify-center">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-13">
+                {trustees.map((trustee) => (
+                  <Image
+                    key={trustee}
+                    src={`/${trustee}.svg`}
+                    alt={trustee}
+                    width={300}
+                    height={300}
+                  />
+                ))}
+              </div>
             </div>
           </div>
-        </div>
 
-
-     <div className="text-center py-20">
+          {/* <div className="text-center py-20">
           <h1 className="md:text-4xl text-2xl font-normal font-serif mb-10">
             Our Mentors
           </h1>
@@ -289,9 +282,7 @@ const Home = () => {
               ))}
             </div>
           </div>
-        </div>
-
-
+        </div> */}
         </div>
       </main>
     </>
