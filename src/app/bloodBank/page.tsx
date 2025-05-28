@@ -22,10 +22,10 @@ const Page = () => {
           <div>
             <div className="flex justify-between">
               <div className="flex flex-col space-y-6 max-w-xl">
-                <span className="text-3xl font-medium font-serif">
+                <span className="text-3xl font-semibold font-serif">
                   Saving Lives, One Donation at a Time
                 </span>
-                <span className="font-medium text-2xl">
+                <span className="font-semibold text-2xl">
                   Donate today—because every drop counts in making a difference!
                 </span>
                 <span className="font-normal text-2xl">
@@ -50,12 +50,12 @@ const Page = () => {
           <div className="flex my-30 space-x-12">
             <Card
               title="Mission"
-              content="We aim to recruit 30,000 blood donors across the district by 2026, ensuring a steady blood supply for emergencies and treatments. Join us in saving lives—your donation can make a real difference!"
+              content="To build a strong and self-sustaining community of 30,000 voluntary blood donors across the district by 2026, ensuring a consistent and timely supply of safe blood for emergency care and ongoing medical treatments."
               className="w-[560px] h-[450px]"
             />
             <Card
               title="Vision"
-              content="We strive to build a sustainable, compassionate blood donation ecosystem, empowering individuals to save lives while fostering a culture of giving, unity, and care in the community"
+              content="To create a sustainable and compassionate blood donation ecosystem that empowers individuals to save lives, while nurturing a culture of voluntary giving, unity, and care within the community."
               className="w-[560px] h-[450px]"
             />
           </div>

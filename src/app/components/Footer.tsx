@@ -5,40 +5,34 @@ import Image from "next/image";
 import {
   IoLocationSharp,
   IoLogoFacebook,
-  IoLogoInstagram,
-  IoLogoTwitter,
   IoMail,
 } from "react-icons/io5";
-import { IoIosCall, IoLogoRss } from "react-icons/io";
+import { IoIosCall } from "react-icons/io";
 import { TiSocialLinkedin } from "react-icons/ti";
-import { FaGooglePlusG } from "react-icons/fa";
-import { FaPinterest } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa";
+
+import Link from "next/link";
 
 const Footer = () => {
-  // const navLinks = [
-  //   {
-  //     title: "Navigation",
-  //     links: [
-  //       { label: "Home", href: "/" },
-  //       { label: "Categories", href: "/categories" },
-  //       { label: "Full Catalog", href: "/products" },
-  //     ],
-  //   },
-  //   {
-  //     title: "Company",
-  //     links: [{ label: "About Us", href: "/about" }],
-  //   },
-  // ];
 
-  const socialIcons = [
-    <IoLogoFacebook key="facebook" />,
-    <IoLogoTwitter key="twitter" />,
-    <TiSocialLinkedin key="linkedin" />,
-    <IoLogoInstagram key="instagram" />,
-    <FaGooglePlusG key="googleplus" />,
-    <FaPinterest key="pinterest" />,
-    <IoLogoRss key="rss" />,
-  ];
+const socialLinks = [
+  {
+    icon: <IoLogoFacebook />,
+    url: "https://www.facebook.com/sudhanandgroup/",
+    key: "facebook",
+  },
+  {
+    icon: <FaYoutube />,
+    url: "https://www.youtube.com/channel/UCs7Y8FtmXpqWnxsdLW60HJA",
+    key: "youtube",
+  },
+  {
+    icon: <TiSocialLinkedin />,
+    url: "https://www.linkedin.com/company/sudhanand-group/",
+    key: "linkedin",
+  },
+];
+  
 
   return (
     <footer className="px-6 md:px-30 pt-15 pb-5 space-y-3 bg-[#C19574] overflow-x-hidden max-w-full">
@@ -67,7 +61,7 @@ const Footer = () => {
           ))}
         </div> */}
 
-        <div className="flex justify-center items-center space-x-8 flex-wrap py-10">
+        <div className="flex justify-center items-center space-x-15 flex-wrap py-10">
           <div className="flex items-center space-x-3">
             <IoLocationSharp />
             <div className="text-sm font-normal">
@@ -79,7 +73,7 @@ const Footer = () => {
 
           <div className="flex items-center space-x-3">
             <IoIosCall />
-            <div className="text-sm font-normal">+91 8214280152</div>
+            <div className="text-sm font-normal">+91 7259512983</div>
           </div>
 
           <div className="flex items-center space-x-3">
@@ -99,10 +93,16 @@ const Footer = () => {
 
         <div className="flex items-center gap-3 sm:gap-4">
           <span>Social Media</span>
-          {socialIcons.map((icon, idx) => (
-            <div key={idx} className="text-lg">
+           {socialLinks.map(({ icon, url, key }) => (
+            <Link
+              key={key}
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg"
+            >
               {icon}
-            </div>
+            </Link>
           ))}
         </div>
 

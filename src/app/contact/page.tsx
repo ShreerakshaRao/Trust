@@ -180,7 +180,7 @@ const Page = () => {
                 </div>
                 <div className="flex space-x-2 font-medium text-base items-center pt-3 break-words">
                   <IoMail />
-                  <span className="underline">info@tiameds.ai</span>
+                  <span>info@tiameds.ai</span>
                 </div>
 
                 <div className="mt-10">
@@ -190,7 +190,7 @@ const Page = () => {
                   </div>
                   <div className="flex space-x-2 font-medium text-base items-center pt-3 break-words">
                     <IoIosCall />
-                    <span className="underline">+91 821 428 0152</span>
+                    <span>+91 7259512983</span>
                   </div>
                 </div>
 
@@ -201,10 +201,10 @@ const Page = () => {
                   </div>
                   <div className="flex space-x-2 font-medium text-base items-center pt-3 break-words">
                     <IoLocationSharp />
-                    <span className="underline">
-                      Sy. No. 59, 2nd Floor, Dakshina Murthy Towers,
-                      <br /> Devanooru, Rajeevnagara 2nd Stage,
-                      <br /> Udayagiri, Mysore 570019.
+                    <span>
+                      Sy. No. 59, 2nd Floor, Dakshina Murthy 
+                      <br /> Towers, Devanooru, Rajeevnagara 2nd 
+                      <br />Stage, Udayagiri, Mysore 570019.
                     </span>
                   </div>
                 </div>
@@ -214,8 +214,8 @@ const Page = () => {
                 <Image
                   src="/Img5.svg"
                   alt="Decorative"
-                  width={230}
-                  height={280}
+                  width={88}
+                  height={88}
                   className="object-contain"
                 />
               </div>

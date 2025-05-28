@@ -45,8 +45,8 @@ export default function HeroSection({
             <Image
               src={imageSrc}
               alt={imageAlt}
-              width={215}
-              height={245}
+              width={200}
+              height={200}
               className="object-contain"
             />
           </div>

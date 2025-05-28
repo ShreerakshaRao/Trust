@@ -11,7 +11,7 @@ const Page = () => {
         <HeroSection
           backgroundVectorSrc="/Vector.svg"
           imageSrc="/DonationImg.svg"
-          heading="Your Donations Matters"
+          heading="Your Donations Matter"
           subheading="Every donation helps create a brighter future for those in need. Together, we make a difference!"
           contentClassName="max-w-xl"
         />
@@ -32,9 +32,9 @@ const Page = () => {
             }}
           >
             <div className="bg-[#C19574] text-white p-5 font-medium text-base rounded-t-xl">
-              Bank Account Details for
+              Bank Account Details for Donations 
               <br />
-              Donations to SAV – Within India
+               Within India
             </div>
 
             <div className="bg-[#FFF7F0] h-full w-full px-8 py-11 leading-10 ">
@@ -121,7 +121,7 @@ const Page = () => {
             }}
           >
             <div className="bg-[#C19574] text-white p-5 font-medium text-base rounded-t-xl">
-              Bank Account Details for Donations <br /> to SAV – From Overseas
+              Bank Account Details for Donations <br />  From Overseas
             </div>
 
             <div className="bg-[#FFF7F0] h-full w-full px-8 py-11 leading-10 ">
